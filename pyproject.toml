@@ -1,0 +1,10 @@
+[project]
+name = "global-radio"
+version = "0.1.0"
+description = "Global Radio Project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "pyradios>=2.1.1",
+]
